@@ -1,0 +1,57 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container{
+  height: 300px;
+  width: 300px;
+  background-color: rgb(14, 71, 71);
+  padding: 15px;
+  position: absolute;
+  left: 600px;
+  top: 200px;
+  text-align: center;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+.in:focus{
+  background-color: rgb(191, 199, 206);
+}
+.in {
+  border: 1px solid black;
+border-radius: 8px;
+ width: 200px;
+ height: 40px;
+ padding: 7px;
+}
+.btn{
+  border-radius: 9px;
+ width: 100px;
+ height: 40px;
+ padding: 2px;
+ background-color: rgb(7, 25, 65);
+ color: white;
+}
+.btn:hover{
+  background-color: rgb(124, 145, 163);
+  cursor: pointer;
+  color: black;
+}
+h1{
+  position: absolute;
+  left: 650px;
+  top: 150px;
+  color: rgb(20, 20, 88);
+}
+.bmi{
+  color: aliceblue;
+  margin-top: 15px;
+  font-size: large;
+}
+.msg{
+  color: rgb(211, 198, 199);
+  margin-top: 15px;
+  font-size: large;
+}
